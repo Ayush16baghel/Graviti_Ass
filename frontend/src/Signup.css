@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: url(images/Untitled\ design\ \(17\).png);
+    width: 500px;
+    /* height:100%; */
+    
+}
+.outer-box{
+    position: relative;
+    bottom: -110px;
+    left: 500px;
+    
+    height: 80vh
+
+    
+    
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: ffffffcc;
+    /* background: linear-gradient(to top left, rgba(255, 255, 255, 0.677), #ffffff00); */
+    /* background: url(images/Untitled\ design\ \(10\).png); */
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #212121;
+    z-index: 1;
+}
+
+div input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(237, 235, 232);
+    border-radius: 6px;
+    font-size: 1rem;
+    margin: 3px;
+}
+button {
+    width: 50%;
+    left: 25%;
+    position: relative;
+    padding: 7px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+    
+Link{
+    width: 50%;
+    left: 25%;
+    position: relative;
+    padding: 7px;
+}
+Link .btn1{
+    border-radius: 5rem;
+    border:none;
+    bottom: 5px;
+}
+
+
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: rgb(52, 52, 126);
+    color:#fff;
+    cursor: pointer;
+    height:3rem;
+    width: 10rem;
+    top: 1px;
+    font-size: 1.5rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+  }

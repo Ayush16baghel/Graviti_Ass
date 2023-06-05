@@ -1,0 +1,25 @@
+.btn3{
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: rgb(52, 52, 126);
+    color:#fff;
+    cursor: pointer;
+    height:6rem;
+    width: 200px;
+    margin: 30px ;
+    font-size: 1.7rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+    top: -50px;
+  }
+  .body{
+    font-family: 'Lato', sans-serif;
+    background: url(images/Untitled\ design\ \(18\).png);
+    
+  }
+  .btn3:hover{
+    background-color: white;
+    color: black;
+}
+
+  
